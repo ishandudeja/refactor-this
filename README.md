@@ -1,3 +1,10 @@
+## Changes
+ADO.Net SQL DataAccess changes to Entity Framework DataAccess
+Implement Unity dependency Injection for controller, service and repository has be introduced 
+Remove Business Logic Code from Controller and increase reusability.
+Place all business Logic in Model.
+Implement CORS to accept Cross origin request
+
 # Refactoring Assessment
 
 This repository contains a terribly written Web API project. It's terrible on purpose, so you can show us how we can improve it.
@@ -44,11 +51,6 @@ Models should conform to the following formats:
 }
 ```
 
-Changes
-ADO.Net SQL DataAccess changes to Entity Framework DataAccess
-Implement Unity dependency Injection for controller, service and repository has be introduced 
-Remove Business Logic Code from Controller and increase reusability.
-Place all business Logic in Model.
-Implement CORS to accept Cross origin request
+
  
 
